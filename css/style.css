@@ -455,8 +455,15 @@ button {
 }
 
 .padding_leri {
-     padding-right: 0;
-     padding-left: 0;
+     float: left;
+     width: 24%;
+     padding: 5px;
+}
+
+.row::after {
+     content: "";
+     clear: both;
+     display: table;
 }
 
 .car_box {
